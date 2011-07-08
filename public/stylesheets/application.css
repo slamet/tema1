@@ -1,0 +1,122 @@
+/*
+  Override default refinery application CSS below.
+  Formatting applies to all frontend.
+*/
+header {
+
+}
+
+headera {
+color:#0099cc;
+
+}
+footer{
+	
+color: #FFFAF0;
+background:#666666;     
+font-size: 12pt;
+margin-bottom: 0;
+background-image:url(/images/footer.jpg);
+width: 71em;
+height:11em;
+
+}
+
+
+body {
+font-family: arial;
+background:#F5F5F5;
+margin: 0;
+text-align: left;
+background-image:url(/images/body2.jpg);
+}
+
+#menu ul {
+  list-style: none;
+  padding: 0px;
+}
+
+#menu ul li {
+  float: left;
+  margin-right: 10px;
+  background-image:url(/images/body.png);
+}
+
+#menu ul li a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+#menu ul li.selected a, #menu ul li a:hover {
+
+   padding: 10px  10px;
+}
+
+#menu a {
+
+color:#0099cc;
+text-decoration: none;
+padding: 0.60em;
+
+}
+
+#menu a:visited {
+
+color: #0099cc;
+padding: 0.60em;
+text-decoration: none;
+
+}
+
+#menu a:hover {
+color:#0099cc;
+border-bottom: 2px white;
+padding: 0.70em;
+
+}
+
+#body_content {
+
+font-family: arial;
+background:#F5F5F5;
+margin: 0;
+text-align: left;
+background-color:white;
+color:black;
+width: 63em;
+
+background-color:#ffffff;
+ 
+  /* for IE */
+  filter:alpha(opacity=60);
+  /* CSS3 standard */
+  opacity:0.6;
+}
+
+
+#body_content a {
+color:#0099cc;
+
+
+}
+
+
+
+
+#hr{
+	/* The dividing line: */
+	height:1px;
+	background-color:#666666;
+	border-bottom:1px solid #416371;
+	margin:1em 0;
+	overflow:hidden;
+
+-moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+}
+
+/* Footer styling: */
+
+
